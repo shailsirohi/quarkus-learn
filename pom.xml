@@ -46,6 +46,15 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-kubernetes</artifactId>
     </dependency>
+    
+	<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-container-image-docker -->
+	<dependency>
+	    <groupId>io.quarkus</groupId>
+	    <artifactId>quarkus-container-image-docker</artifactId>
+	    <version>1.9.2.Final</version>
+	</dependency>
+
+
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
